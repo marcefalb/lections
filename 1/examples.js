@@ -9,3 +9,5 @@
 // let myvar;
 //
 // const PI = 3.14;
+
+// node -v
