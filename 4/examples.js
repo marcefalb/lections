@@ -13,17 +13,17 @@
 // let scores = 75
 //
 // if (scores > 90) {
-//   alert('Ваша оценка 5');
-//   alert('Поздравляем! Вы поступите на бюджет.');
+//   console.log('Ваша оценка 5');
+//   console.log('Поздравляем! Вы поступите на бюджет.');
 // } else if (scores <= 90 && scores > 60) {
-//   alert('Вы получили 4');
-//   alert('Вы можете претендовать только на платное обучение.');
+//   console.log('Вы получили 4');
+//   console.log('Вы можете претендовать только на платное обучение.');
 // } else if (scores <= 60 && scores > 30) {
-//   alert('Вы получили 3');
-//   alert('Ваши шансы на поступление низки');
+//   console.log('Вы получили 3');
+//   console.log('Ваши шансы на поступление низки');
 // } else {
-//   alert('Вы получили 2');
-//   alert('Вы не поступили в университет');
+//   console.log('Вы получили 2');
+//   console.log('Вы не поступили в университет');
 // }
 
 // ------------------------------------------------------------------------------------
@@ -40,12 +40,12 @@
 // let company = "SomeCompany";
 //
 // (company == 'Netscape') ?
-//     alert('Первый вариант!') : alert('Второй вариант.');
+//     console.log('Первый вариант!') : console.log('Второй вариант.');
 
 // if (company == 'Netscape') {
-//   alert('Первый вариант!');
+//   console.log('Первый вариант!');
 // } else {
-//   alert('Второй вариант.');
+//   console.log('Второй вариант.');
 // }
 
 // -------------------------------------------------------------------------------------
@@ -90,16 +90,16 @@
 // console.log('На полках ' + countTheBooksOnTheShelves(10, 20, 30) + ' книг');
 
 // const howManyBooksToReadInJS = () => 'Нужно прочитать 1 хорошую книгу по JavaScript - главное не теория, а практика!';
-// alert(howManyBooksToReadInJS());
+// console.log(howManyBooksToReadInJS());
 
-// const showFavoriteProgrammingLanguage = langName => alert('Мой любимый язык программирования ' + langName);
+// const showFavoriteProgrammingLanguage = langName => console.log('Мой любимый язык программирования ' + langName);
 // showFavoriteProgrammingLanguage('JavaScript');
 
 // let jsPracticeTime = 5
 //
 // let showJSLearningIntensity = (jsPracticeTime >= 3) ?
-//     () => alert('Вы на правильном пути!') :
-//     () => alert("Надо больше уделять времени практике!");
+//     () => console.log('Вы на правильном пути!') :
+//     () => console.log("Надо больше уделять времени практике!");
 //
 // showJSLearningIntensity();
 
