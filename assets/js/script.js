@@ -1,5 +1,5 @@
 const list = document.querySelector('.list');
-const count = 4;
+const count = 5;
 
 const lectionHTML = (lectionCount) => `
   <li class="item">
